@@ -13,11 +13,11 @@
         <button id="TempConverter">Temperature Converter</button>
         <button id="LenConverter">Length Converter</button>
         <button id="MassConverter">Mass Converter</button>
-        <button id="TimeConverter">Length Converter</button>
+        <button id="TimeConverter">Time Converter</button>
     </div>
     
     <div id="sidebar">
-        <button id="CloseSideBar">X</button>
+        <button id="CloseSideBar" class="Close">X</button>
         <h2 id="NameList"></h2>
         <p>Convert</p>        
         <div class="Selectors">
@@ -28,11 +28,10 @@
             <select name="List" id="ListTo">
             </select>
         </div>
-        <div>
-            <input type="number" placeholder="Enter Amount" id="NumberFrom">
-            <input type="number" placeholder="Equals to" id="NumberTo" disabled>
+        <input type="number" placeholder="Enter Amount" id="NumberFrom">
+        <div class="Result" id="Result">
+            --
         </div>
-        <button id="Convert">Convert</button>
     </div>
 
     <script type="module" src="main.js"></script>
