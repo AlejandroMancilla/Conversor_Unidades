@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Menu">
+        <h1>Calculator</h1>
+        <h2>Unit Converter</h2>
+        <button id="TempConverter">Temperature Converter</button>
+        <button id="LenConverter">Length Converter</button>
+        <button id="MassConverter">Mass Converter</button>
+        <button id="TimeConverter">Length Converter</button>
+    </div>
+    
+    <div id="sidebar">
+        <button id="CloseSideBar">X</button>
+        <h2 id="NameList"></h2>
+        <p>Convert</p>        
+        <div class="Selectors">
+            <p>From: </p>
+            <select name="List" id="ListFrom">
+            </select>
+            <p>To: </p>
+            <select name="List" id="ListTo">
+            </select>
+        </div>
+        <div>
+            <input type="number" placeholder="Enter Amount" id="NumberFrom">
+            <input type="number" placeholder="Equals to" id="NumberTo" disabled>
+        </div>
+        <button id="Convert">Convert</button>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
